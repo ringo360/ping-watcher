@@ -1,0 +1,14 @@
+{
+  "name": "ping-watcher",
+  "version": "1.0.0",
+  "description": "a simple ping watcher.",
+  "main": "main.js",
+  "repository": "https://github.com/ringo360/ping-watcher.git",
+  "author": "ringoXD",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^1.6.5",
+    "ping": "^0.4.4"
+  }
+}

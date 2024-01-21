@@ -1,0 +1,5 @@
+{
+	"webhookurl": "uwu", //webhook url (discord)
+	"mentionuserid": "<@1063527758292070591>", //userid
+	"mentionuserid2": "" //userid_2 (if you need)
+}
