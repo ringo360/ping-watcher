@@ -2,9 +2,9 @@ const ping = require('ping');
 const axios = require('axios');
 const config = require('./config.json')
 
-const pInterval = 1000; //?ping internal
-const maxfailcount = 3; //?retry count thresold
-const maxrestime = 300; //?max ping
+const pInterval = config.interval; //?ping internal
+const maxfailcount = config.maxfail; //?retry count thresold
+const maxrestime = config.maxping; //?max ping
 const webhookurl = config.webhookurl
 const host = config.host
 
