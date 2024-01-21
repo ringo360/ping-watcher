@@ -17,7 +17,7 @@ let lastping = 0;
 async function Pinger() {
 	try {
 		const res = await ping.promise.probe(host);
-		console.log(`${res.time}ms`)
+		console.log(`[Your Device] <===> [${host}] : ${res.time}ms`)
 		lastping = `${res.time}ms`
 		if (!res.alive || res.time > maxrestime) {
 			failcount++;
