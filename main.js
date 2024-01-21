@@ -6,7 +6,7 @@ const pInterval = 1000; //?ping internal
 const maxfailcount = 3; //?retry count thresold
 const maxrestime = 300; //?max ping
 const webhookurl = config.webhookurl
-const host = '192.168.1.1'
+const host = config.host
 
 const user1 = config.mentionuserid
 const user2 = config.mentionuserid2

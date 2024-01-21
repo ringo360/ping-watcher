@@ -1,4 +1,5 @@
 {
+	"host": "1.1.1.1", //target ip,domain (1.1.1.1, 192.168.1.1, example.com)
 	"webhookurl": "uwu", //webhook url (discord)
 	"mentionuserid": "<@1063527758292070591>", //userid
 	"mentionuserid2": "" //userid_2 (if you need)
